@@ -1,5 +1,5 @@
 
-# Image Compare 🖼️
+# Images Compare 🖼️
 
 This Python package allows for image comparison between two provided images using a specified threshold.
 
@@ -8,10 +8,10 @@ This Python package allows for image comparison between two provided images usin
 
 ## Installation
 
-Install image-compare with pip
+Install images-compare with pip
 
 ```bash
-pip install image-compare
+pip install images-compare
 ```
     
 ## Demo
@@ -19,7 +19,7 @@ pip install image-compare
 Copy the below code snippet for a quick start
 
 ```python
-from image_compare import verify_images
+from images_compare import verify_images
 
 res = verify_images("img_1.png", "img_2.png", 0.0001)
 print(res)

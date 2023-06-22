@@ -1,5 +1,5 @@
 import unittest
-from src.image_compare import verify_images
+from src.images_compare import verify_images
 
 
 class TestVerifyImages(unittest.TestCase):

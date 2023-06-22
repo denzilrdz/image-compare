@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf8") as f:
     long_description = f.read()
 
 setup(
-    name="image-compare",
-    version="0.1.0",
+    name="images-compare",
+    version="0.2.0",
     description="This Python package allows for image comparison between two provided images using a specified threshold",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/denzilrdz/image-compare",
+    url="https://github.com/denzilrdz/images-compare",
     author="Denzil Rodrigues",
     author_email="denzil.rdz@gmail.com",
     license="MIT",
