@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf8") as f:
 
 setup(
     name="images-compare",
-    version="0.2.0",
+    version="0.5.0",
     description="This Python package allows for image comparison between two provided images using a specified threshold",
     package_dir={"": "src"},
     packages=find_packages(where="src"),

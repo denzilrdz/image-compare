@@ -1,1 +1,1 @@
-from src.images_compare.verify import verify_images
+from .verify import verify_images
