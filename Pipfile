@@ -9,7 +9,6 @@ opencv-python = "*"
 wheel = "*"
 
 [dev-packages]
-twine = "*"
 
 [requires]
 python_version = "3.11"
